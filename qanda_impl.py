@@ -1,6 +1,6 @@
 import sqlite3, qanda
 
-conn = sqlite3.connect('qanda.db')
+conn = sqlite3.connect('qanda.db', isolation_level = none )
 c=conn.cursor()
 inc=0
 
